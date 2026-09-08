@@ -80,11 +80,6 @@ Full-Stack Engineer since 2006, Ruby on Rails developer since 2009. I enjoy writ
 
 Web Applications • E-commerce • API Design • Web UI/UX • Web Security • CI/CD • Cloud Services • Project Management • Agile Methodologies • Team Management • AI Development Workflows
 
-#### 📊 GitHub Stats
-
-![Hugo's GitHub stats](https://github-readme-stats.vercel.app/api?username=hugogilmar&show_icons=true&theme=default&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hugogilmar&layout=compact&hide_border=true)
-
 #### 📫 Let's connect
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/hugogilmar)
