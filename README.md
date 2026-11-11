@@ -74,31 +74,12 @@ Full-Stack Engineer since 2006, Ruby on Rails developer since 2009. I enjoy writ
 
 #### 🤖 AI Engineering
 
-I work where two things meet: **shipping AI features inside products** and **helping engineering teams work faster and safer with AI agents**. Think *Applied AI Engineer + Agentic Workflow Architect*.
-
-**Agentic software development**
-
-- Design **AI-native delivery workflows** where agents take work from issue → spec → plan → test-first implementation → PR with green CI, with people approving at set checkpoints
-- Write reusable **Agent Skills** (design, build, debug, triage, audit, ship, docs) that turn a team's process into steps every agent follows the same way
-- Set project standards in **`CLAUDE.md`** and **GitHub Copilot Instructions** (routing rules, architecture boundaries, testing standards) so AI output fits the codebase instead of fighting it
-- Run **multi-agent work**: an orchestrator hands issues to parallel agents, each in its own git worktree, and reviews and merges what they deliver
-- Put **guardrails in code, not prose**: a wrapper CLI and permission allowlists so agents reach GitHub, Cloudflare and Sentry only through vetted commands, and never production
-- Match models to the task (stronger reasoning models for architecture and security, faster ones for bounded work) to balance quality and cost
-- Run **LLM-driven code audits** through batch APIs: find issues, verify each one independently, and file only the confirmed ones
-
-**AI product features**
-
-- LLM features on **Cloudflare Workers AI**: vision-based receipt extraction, AI-generated financial reports and analysis, and a "should I buy this?" spending coach
-- **Structured outputs** validated with Zod schemas, primary and fallback models, and graceful degradation when a model fails
-- **Model evaluation tools** that score candidate models against ground-truth datasets before one is chosen
-- An **MCP (Model Context Protocol) server** that lets AI assistants read and write product data safely: scoped API keys, idempotent writes, and no destructive tools by design
-- Multilingual AI output (EN/ES) and observability on every model call
-
-**How I can help your team**
-
-- Roll out Claude Code or Copilot with instructions, skills and guardrails that fit your codebase and your process
-- Turn your engineering workflow into agent workflows that keep people in the loop where it matters
-- Add practical AI features to an existing product, and measure that they actually work
+- **Agentic development workflows** — issue → spec → plan → test-first code → green PR, with people approving at set checkpoints
+- **Agent Skills, `CLAUDE.md` & Copilot Instructions** that turn a team's standards and process into rules every agent follows
+- **Multi-agent orchestration** in isolated git worktrees, with guardrails in code so agents only reach vetted commands
+- **LLM product features** — vision extraction, AI-generated reports, structured outputs and fallback models
+- **Model evaluation & AI code audits** to pick the right model and file only verified findings
+- **MCP servers** that let AI assistants work with product data safely
 
 #### 🤝 Soft Skills & Approach
 
