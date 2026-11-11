@@ -2,7 +2,7 @@
 
 Full-Stack Engineer since 2006, Ruby on Rails developer since 2009. I enjoy writing clean, well-architected code and shipping reliable products — bonus points if Docker, Cloudflare, or AWS are involved.
 
-- 🔭 Currently working with the **Cloudflare stack** (Workers, D1, R2, Durable Objects) and exploring **AI-assisted engineering workflows**
+- 🔭 Currently building on the **Cloudflare stack** (Workers, D1, R2, Durable Objects, Workers AI) and designing **agentic engineering workflows** with Claude Code and GitHub Copilot
 - 🌍 Based in El Salvador, working remotely with distributed teams across the US and Europe
 - 🎓 Engineering background in Computer Science, specialized in software development
 - 🗣️ Native Spanish, fluent English
@@ -47,6 +47,14 @@ Full-Stack Engineer since 2006, Ruby on Rails developer since 2009. I enjoy writ
 ![Heroku](https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 
+**AI & Agents**
+
+![Claude](https://img.shields.io/badge/-Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/-GitHub_Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white)
+![MCP](https://img.shields.io/badge/-MCP-1A1A1A?style=flat-square&logo=modelcontextprotocol&logoColor=white)
+![Workers AI](https://img.shields.io/badge/-Workers_AI-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![Anthropic API](https://img.shields.io/badge/-Anthropic_API-191919?style=flat-square&logo=anthropic&logoColor=white)
+
 **Integrations & Platforms**
 
 ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
@@ -61,7 +69,36 @@ Full-Stack Engineer since 2006, Ruby on Rails developer since 2009. I enjoy writ
 - **Payment gateway & third-party integrations** for fintech, e-commerce, and media platforms
 - **Legacy system modernization**, containerization, and cloud migration (Docker, AWS ECS/Kubernetes)
 - **Serverless architectures** with Cloudflare Workers, D1, R2, and Durable Objects
+- **AI engineering** — agentic development workflows for teams and LLM-powered features for products (see below)
 - Experience leading engineering teams as **CTO / VP of Engineering / Tech Lead**, from hands-on coding to team management and strategic planning
+
+#### 🤖 AI Engineering
+
+I work where two things meet: **shipping AI features inside products** and **helping engineering teams work faster and safer with AI agents**. Think *Applied AI Engineer + Agentic Workflow Architect*.
+
+**Agentic software development**
+
+- Design **AI-native delivery workflows** where agents take work from issue → spec → plan → test-first implementation → PR with green CI, with people approving at set checkpoints
+- Write reusable **Agent Skills** (design, build, debug, triage, audit, ship, docs) that turn a team's process into steps every agent follows the same way
+- Set project standards in **`CLAUDE.md`** and **GitHub Copilot Instructions** (routing rules, architecture boundaries, testing standards) so AI output fits the codebase instead of fighting it
+- Run **multi-agent work**: an orchestrator hands issues to parallel agents, each in its own git worktree, and reviews and merges what they deliver
+- Put **guardrails in code, not prose**: a wrapper CLI and permission allowlists so agents reach GitHub, Cloudflare and Sentry only through vetted commands, and never production
+- Match models to the task (stronger reasoning models for architecture and security, faster ones for bounded work) to balance quality and cost
+- Run **LLM-driven code audits** through batch APIs: find issues, verify each one independently, and file only the confirmed ones
+
+**AI product features**
+
+- LLM features on **Cloudflare Workers AI**: vision-based receipt extraction, AI-generated financial reports and analysis, and a "should I buy this?" spending coach
+- **Structured outputs** validated with Zod schemas, primary and fallback models, and graceful degradation when a model fails
+- **Model evaluation tools** that score candidate models against ground-truth datasets before one is chosen
+- An **MCP (Model Context Protocol) server** that lets AI assistants read and write product data safely: scoped API keys, idempotent writes, and no destructive tools by design
+- Multilingual AI output (EN/ES) and observability on every model call
+
+**How I can help your team**
+
+- Roll out Claude Code or Copilot with instructions, skills and guardrails that fit your codebase and your process
+- Turn your engineering workflow into agent workflows that keep people in the loop where it matters
+- Add practical AI features to an existing product, and measure that they actually work
 
 #### 🤝 Soft Skills & Approach
 
@@ -78,7 +115,7 @@ Full-Stack Engineer since 2006, Ruby on Rails developer since 2009. I enjoy writ
 
 #### 📚 Areas of Knowledge
 
-Web Applications • E-commerce • API Design • Web UI/UX • Web Security • CI/CD • Cloud Services • Project Management • Agile Methodologies • Team Management • AI Development Workflows
+Web Applications • E-commerce • API Design • Web UI/UX • Web Security • CI/CD • Cloud Services • Project Management • Agile Methodologies • Team Management • AI Development Workflows • Agentic Engineering • LLM Integration
 
 #### 📫 Let's connect
 
